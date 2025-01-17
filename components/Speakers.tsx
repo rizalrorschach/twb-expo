@@ -2,52 +2,52 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Twitter, Linkedin, Globe } from "lucide-react";
+import { SiX, SiLinkedin, SiGoogleearth } from "react-icons/si"; // updated import
 
 const speakers = [
   {
-    name: "Dr. Jane Smith",
-    role: "AI Researcher",
+    name: "Elon Musk",
+    role: "CEO, SpaceX & Tesla",
     image: "/placeholder.svg?height=400&width=400",
-    topics: ["AI Ethics", "Machine Learning", "Neural Networks"],
-    twitter: "janesmith",
-    linkedin: "jane-smith-ai",
-    website: "https://janesmith.ai",
+    topics: ["Space Exploration", "Electric Vehicles", "Artificial Intelligence"],
+    twitter: "elonmusk",
+    linkedin: "elon-musk",
+    website: "https://www.spacex.com",
   },
   {
-    name: "Prof. John Doe",
-    role: "Sustainability Expert",
+    name: "Bill Gates",
+    role: "Co-Founder, Microsoft & Philanthropist",
     image: "/placeholder.svg?height=400&width=400",
-    topics: ["Climate Change", "Renewable Energy", "Green Tech"],
-    twitter: "johndoe_sustain",
-    linkedin: "john-doe-sustainability",
-    website: "https://johndoe-sustainability.com",
+    topics: ["Global Health", "Technology Innovation", "Climate Change"],
+    twitter: "BillGates",
+    linkedin: "bill-gates",
+    website: "https://www.gatesnotes.com",
   },
   {
-    name: "Sarah Johnson",
-    role: "Tech Entrepreneur",
+    name: "Mark Zuckerberg",
+    role: "CEO, Meta (Facebook)",
     image: "/placeholder.svg?height=400&width=400",
-    topics: ["Startup Ecosystems", "EdTech Innovations", "FinTech Trends"],
-    twitter: "sarahjstartup",
-    linkedin: "sarah-johnson-tech",
-    website: "https://sarahjohnson.tech",
+    topics: ["Social Media Trends", "Metaverse Development", "Virtual Reality"],
+    twitter: "finkd",
+    linkedin: "mark-zuckerberg",
+    website: "https://about.facebook.com",
   },
   {
-    name: "Michael Chen",
-    role: "Biotech Innovator",
+    name: "Sundar Pichai",
+    role: "CEO, Google & Alphabet",
     image: "/placeholder.svg?height=400&width=400",
-    topics: ["CRISPR Technology", "Personalized Medicine", "Bioethics"],
-    twitter: "michaelchen_bio",
-    linkedin: "michael-chen-biotech",
-    website: "https://michaelchen-biotech.org",
+    topics: ["Artificial Intelligence", "Search Engines", "Future of Technology"],
+    twitter: "sundarpichai",
+    linkedin: "sundar-pichai",
+    website: "https://www.google.com",
   },
 ];
 
 export default function Speakers() {
   return (
-    <section id="speakers" className="py-24 bg-slate-50 text-gray-900">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-gray-900">Speakers and Innovators</h2>
+    <section id="speakers" className="py-12 md:py-24 bg-slate-50 text-gray-900">
+      <div className="container mx-auto px-4 md:px-6">
+        <h2 className="text-4xl font-bold mb-12 text-center text-gray-900">Pembicara</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {speakers.map((speaker, index) => (
             <Card key={index} className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
@@ -70,13 +70,13 @@ export default function Speakers() {
               <CardFooter className="flex justify-between items-center p-6 bg-slate-100">
                 <div className="flex space-x-4">
                   <a href={`https://twitter.com/${speaker.twitter}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">
-                    <Twitter size={20} />
+                    <SiX size={20} />
                   </a>
                   <a href={`https://www.linkedin.com/in/${speaker.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-800">
-                    <Linkedin size={20} />
+                    <SiLinkedin size={20} />
                   </a>
                   <a href={speaker.website} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-700">
-                    <Globe size={20} />
+                    <SiGoogleearth size={20} />
                   </a>
                 </div>
                 <Button variant="outline">View Profile</Button>

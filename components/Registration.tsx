@@ -24,19 +24,19 @@ export default function Registration() {
   };
 
   return (
-    <section id="registration" className="py-24 bg-gradient-to-b from-slate-50 to-slate-100 text-gray-900">
-      <div className="container mx-auto max-w-md px-4">
+    <section id="registration" className="py-12 md:py-24 bg-gradient-to-b from-slate-50 to-slate-100 text-gray-900">
+      <div className="container mx-auto max-w-md px-4 md:px-6">
         <Card className="shadow-2xl">
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl font-bold mb-2">Join Us</CardTitle>
-            <CardDescription className="text-xl">Register for TWB Campus Expo 2025</CardDescription>
+            <CardTitle className="text-4xl font-bold mb-2">Daftar Sekarang</CardTitle>
+            <CardDescription className="text-xl">Daftar TWB Campus Expo 2025</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-lg font-medium flex items-center gap-2">
                   <User className="w-5 h-5" />
-                  Full Name
+                  Nama Lengkap
                 </Label>
                 <Input
                   type="text"
@@ -46,13 +46,13 @@ export default function Registration() {
                   onChange={handleChange}
                   required
                   className="w-full text-lg py-3 px-4 rounded-md border-2 border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 transition duration-200"
-                  placeholder="Enter your full name"
+                  placeholder="Masukan nama lengkapmu"
                 />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="school" className="text-lg font-medium flex items-center gap-2">
                   <GraduationCap className="w-5 h-5" />
-                  School Name
+                  Asal Sekolah
                 </Label>
                 <Input
                   type="text"
@@ -62,12 +62,12 @@ export default function Registration() {
                   onChange={handleChange}
                   required
                   className="w-full text-lg py-3 px-4 rounded-md border-2 border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 transition duration-200"
-                  placeholder="Enter your school name"
+                  placeholder="Masukan nama sekolahmu"
                 />
               </div>
               <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white text-lg py-6 rounded-md transition duration-200 flex items-center justify-center gap-2">
                 <Send className="w-5 h-5" />
-                Register via WhatsApp
+                Daftar via WhatsApp
               </Button>
             </form>
           </CardContent>

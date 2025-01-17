@@ -5,7 +5,6 @@ import Schedule from "@/components/Schedule";
 import Speakers from "@/components/Speakers";
 import Registration from "@/components/Registration";
 import Gallery from "@/components/Gallery";
-import News from "@/components/News";
 import Contact from "@/components/Contact";
 import Sponsors from "@/components/Sponsors";
 import Testimonials from "@/components/Testimonials";
@@ -21,7 +20,7 @@ export default function Home() {
       <Speakers />
       <Registration />
       <Gallery />
-      <News />
+      {/* <News /> */}
       <Contact />
       <Sponsors />
       <Testimonials />
