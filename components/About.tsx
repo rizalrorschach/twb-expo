@@ -13,7 +13,7 @@ export default function About() {
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-4 text-gray-900">Theme</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-gray-900">Tema</h3>
             <p className="text-gray-700 leading-relaxed">
               Tema tahun ini,<em> &apos;Tak Penting dari Mana Kamu Berasal, yang Penting Kemana Kamu Akan Menuju&apos;</em>, menekankan pentingnya fokus pada masa depan dan ketekunan untuk mencapai tujuan pendidikan dan karier. Melalui sesi
               interaktif, diskusi motivasi, dan bimbingan langsung, TWB EXPO CAMPUS 2025 menginspirasi peserta untuk mengoptimalkan potensi mereka dan mengambil langkah pertama menuju masa depan yang gemilang.
