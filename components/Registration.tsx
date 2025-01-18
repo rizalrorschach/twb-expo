@@ -19,7 +19,7 @@ export default function Registration() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappLink = `https://api.whatsapp.com/send?phone=6281802558613&text=Halo%2C%20saya%20${encodeURIComponent(formData.name)}%20dari%20${encodeURIComponent(formData.school)}%20ingin%20mendaftar%20TWB%20Campus%20Expo%202025`;
+    const whatsappLink = `https://api.whatsapp.com/send?phone=6282315348593&text=Halo%2C%20saya%20${encodeURIComponent(formData.name)}%20dari%20${encodeURIComponent(formData.school)}%20ingin%20mendaftar%20TWB%20Campus%20Expo%202025`;
     window.open(whatsappLink, "_blank");
   };
 
