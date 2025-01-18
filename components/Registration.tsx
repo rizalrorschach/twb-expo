@@ -28,8 +28,8 @@ export default function Registration() {
       <div className="container mx-auto max-w-md px-4 md:px-6">
         <Card className="shadow-2xl">
           <CardHeader className="text-center">
-            <CardTitle className="text-4xl font-bold mb-2">Daftar Sekarang</CardTitle>
-            <CardDescription className="text-xl">Daftar TWB Campus Expo 2025</CardDescription>
+            <CardTitle className="text-2xl font-bold mb-2">Daftar Sekarang</CardTitle>
+            <CardDescription className="text-lg">Daftar TWB Campus Expo 2025</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
