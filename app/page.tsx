@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import Sponsors from "@/components/Sponsors";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import UniversityList from "@/components/UniversityList";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Homepage />
       <About />
+      <UniversityList />
       <Schedule />
       <Speakers />
       <Registration />

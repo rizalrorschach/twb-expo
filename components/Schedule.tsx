@@ -1,12 +1,20 @@
-import { Clock, Coffee, Mic, Users, Award, BookOpen } from "lucide-react";
+import { Clock, Coffee, Mic, Users, Award, BookOpen, Map, Camera, Clipboard, MessageSquare } from "lucide-react";
 
 const events = [
-  { time: "09:00 WIB", title: "Upacara Pembukaan", location: "Aula Utama", icon: Award, color: "bg-blue-100 text-blue-800" },
-  { time: "10:30 WIB", title: "Pidato Utama", location: "Auditorium A", icon: Mic, color: "bg-purple-100 text-purple-800" },
-  { time: "12:00 WIB", title: "Istirahat Makan Siang", location: "Kafetaria", icon: Coffee, color: "bg-yellow-100 text-yellow-800" },
-  { time: "13:30 WIB", title: "Diskusi", location: "Ruang Konferensi B", icon: Users, color: "bg-green-100 text-green-800" },
-  { time: "15:00 WIB", title: "Sesi Lokakarya", location: "Berbagai Ruangan", icon: BookOpen, color: "bg-red-100 text-red-800" },
-  { time: "17:00 WIB", title: "Penutupan", location: "Aula Utama", icon: Mic, color: "bg-indigo-100 text-indigo-800" },
+  { time: "07:30 WIB", title: "Kedatangan dan Registrasi Peserta", location: "Pintu Masuk", icon: Clipboard, color: "bg-blue-100 text-blue-800" },
+  { time: "08:00 WIB", title: "Chit Chat", location: "Aula Utama", icon: MessageSquare, color: "bg-purple-100 text-purple-800" },
+  {
+    time: "08:30 WIB",
+    title: "Upacara Pembukaan",
+    location: "Aula Utama",
+    icon: Award,
+    color: "bg-green-100 text-green-800",
+  },
+  { time: "09:15 WIB", title: "Talk Show dan Sharing Session", location: "Auditorium", icon: Mic, color: "bg-yellow-100 text-yellow-800" },
+  { time: "09:45 WIB", title: "Foto Bersama", location: "Halaman Utama", icon: Camera, color: "bg-orange-100 text-orange-800" },
+  { time: "09:50 WIB", title: "Arahan Jelajah Stand", location: "Aula Utama", icon: Map, color: "bg-indigo-100 text-indigo-800" },
+  { time: "09:55 WIB", title: "Jelajah Stand", location: "Area Expo", icon: BookOpen, color: "bg-red-100 text-red-800" },
+  { time: "11:55 WIB", title: "Penutupan Acara", location: "Aula Utama", icon: Mic, color: "bg-teal-100 text-teal-800" },
 ];
 
 export default function Schedule() {
@@ -26,7 +34,6 @@ export default function Schedule() {
                 <Clock className="w-4 h-4 mr-2" />
                 <span>{event.time}</span>
               </div>
-              <div className="text-sm">{event.location}</div>
             </div>
           ))}
         </div>

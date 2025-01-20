@@ -5,29 +5,34 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 const testimonials = [
   {
-    quote: "Campus Expo 2024 was an incredible experience! I learned so much and made great connections.",
-    name: "Sarah L.",
-    title: "Student",
+    quote: "Acaranya seru",
+    name: "Puput Melati",
+    title: "SMK Al Amin",
   },
   {
-    quote: "As a speaker, I was impressed by the organization and enthusiasm of the attendees.",
-    name: "Dr. James H.",
-    title: "Professor",
+    quote: "Saya sangat termotivasi untuk melanjutkan kuliah",
+    name: "Yuni Nurpadilah",
+    title: "SMK Al Amin",
   },
   {
-    quote: "The expo opened my eyes to new career possibilities. Can't wait for next year!",
-    name: "Emily R.",
-    title: "Recent Graduate",
+    quote: "Menambah wawasan untuk kuliah menjadi lebih mantap",
+    name: "Reni Nurhasanah",
+    title: "SMK Mutiara Medika Cisinga",
   },
   {
-    quote: "The networking opportunities at Campus Expo were unparalleled. I made valuable industry connections.",
-    name: "Michael T.",
-    title: "Industry Professional",
+    quote: "Menyenangkan dan sangat memotivasi untuk melanjutkan studi ke perguruan tinggi",
+    name: "Ai Siti Nurjamilah",
+    title: "Tawangbanteng",
   },
   {
-    quote: "The workshops were incredibly informative and practical. I gained skills I can apply immediately.",
-    name: "Lisa K.",
-    title: "Graduate Student",
+    quote: "Sangat menyenangkan sekali",
+    name: "Defi Aliyawati",
+    title: "SMK Al Amin",
+  },
+  {
+    quote: "Acaranya sangat wahh bangeutt",
+    name: "Yuli Padilah",
+    title: "SMK Al Amin",
   },
 ];
 

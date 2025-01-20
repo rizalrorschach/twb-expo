@@ -11,11 +11,10 @@ export function MobileNav() {
 
   const navItems = [
     ["HOME", "/"],
-    ["ABOUT", "#about"],
-    ["EXHIBITIONS", "#exhibitions"],
-    ["SPEAKERS", "#speakers"],
+    ["TENTANG", "#about"],
+    ["JADWAL", "#exhibitions"],
+    ["PEMBICARA", "#speakers"],
     ["PARTNERS", "#partners"],
-    ["CONTACT US", "#contact"],
   ];
 
   return (
@@ -35,14 +34,11 @@ export function MobileNav() {
               {label}
             </Link>
           ))}
-          <Link href="#registration" onClick={() => setOpen(false)} className="text-sm font-medium transition-colors hover:text-primary">
-            Daftar
-          </Link>
         </nav>
         <div className="mt-6">
           <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 text-white">
             <Link href="#registration" onClick={() => setOpen(false)}>
-              Join Us
+              Daftar Sekarang
             </Link>
           </Button>
         </div>
