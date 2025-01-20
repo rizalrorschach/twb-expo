@@ -17,7 +17,7 @@ export default function Contact() {
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold mb-6 text-gray-700">Event Location</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-700">Lokasi</h3>
             <div className="aspect-w-16 aspect-h-9">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1232.8388249798768!2d108.1399959760948!3d-7.303089663177716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f53e04d761f23%3A0x428697c92d5cad95!2sPondok%20Pesantren%20Riyadlussholihin%20Kubangsalawe!5e1!3m2!1sid!2sid!4v1737123653878!5m2!1sid!2sid"
