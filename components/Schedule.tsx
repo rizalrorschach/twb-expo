@@ -1,4 +1,4 @@
-import { Clock, Coffee, Mic, Users, Award, BookOpen, Map, Camera, Clipboard, MessageSquare } from "lucide-react";
+import { Clock, Mic, Award, BookOpen, Map, Camera, Clipboard, MessageSquare } from "lucide-react";
 
 const events = [
   { time: "07:30 WIB", title: "Kedatangan dan Registrasi Peserta", location: "Pintu Masuk", icon: Clipboard, color: "bg-blue-100 text-blue-800" },

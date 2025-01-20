@@ -6,7 +6,6 @@ import Speakers from "@/components/Speakers";
 import Registration from "@/components/Registration";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
-import Sponsors from "@/components/Sponsors";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
 import UniversityList from "@/components/UniversityList";
@@ -24,7 +23,7 @@ export default function Home() {
       <Gallery />
       {/* <News /> */}
       <Contact />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Testimonials />
       <Footer />
     </main>
