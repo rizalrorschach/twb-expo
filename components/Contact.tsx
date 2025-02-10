@@ -13,14 +13,14 @@ export default function Contact() {
               <strong className="text-gray-700">Telpon:</strong> +62 823-1534-8593
             </p>
             <p className="mb-4">
-              <strong className="text-gray-700">Alamat:</strong> SMA IT Riyadlussholihin, Kubangsalawe, Tawangbanteng.
+              <strong className="text-gray-700">Alamat:</strong> Kantor Desa Tawangbanteng, Jl. Tawang Banteng - Cipanas Galunggung No.16, Tawangbanteng, Kec. Sukaratu, Kabupaten Tasikmalaya, Jawa Barat 46415
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold mb-6 text-gray-700">Lokasi</h3>
             <div className="aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1232.8388249798768!2d108.1399959760948!3d-7.303089663177716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f53e04d761f23%3A0x428697c92d5cad95!2sPondok%20Pesantren%20Riyadlussholihin%20Kubangsalawe!5e1!3m2!1sid!2sid!4v1737123653878!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d616.4040878353228!2d108.14442491915575!3d-7.314195819653777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f515675244b43%3A0xcd5f14c13c93f288!2sKantor%20Desa%20Tawangbanteng!5e1!3m2!1sid!2sid!4v1737546931711!5m2!1sid!2sid"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

@@ -36,4 +36,24 @@ const cards = [
     className: "md:col-span-2",
     thumbnail: "Expo/un6134okwgw0kjucoxtg",
   },
+  {
+    id: 5,
+    className: "md:col-span-2",
+    thumbnail: "Expo/wiysbxw6eyg4bp6jj46x",
+  },
+  {
+    id: 6,
+    className: "md:col-span-1",
+    thumbnail: "Expo/yookkhk9f5fwwtnzryfm",
+  },
+  {
+    id: 7,
+    className: "md:col-span-1",
+    thumbnail: "Expo/h1pcmb9rs7ctdsbd21eu",
+  },
+  {
+    id: 8,
+    className: "md:col-span-1",
+    thumbnail: "Expo/ilfsje3rlqehaveud5fs",
+  },
 ];
