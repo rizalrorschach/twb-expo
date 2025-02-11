@@ -130,7 +130,7 @@ export default function Speakers() {
                   </div>
                 </div>
                 <div className="md:w-2/3 p-6 md:p-8">
-                  <h4 className="text-xl font-semibold mb-4">About the Speaker</h4>
+                  <h4 className="text-xl font-semibold mb-4">Tentang Pembicara</h4>
                   <p className="text-gray-600 mb-6">
                     Septiana Pratiwi adalah seorang wirausahawan dan mentor bisnis dengan tekad untuk memberdayakan generasi pemimpin berikutnya. Dengan pengalaman yang luas di berbagai industri, ia membawa banyak pengetahuan untuk
                     menginspirasi dan membimbing para calon wirausahawan.
