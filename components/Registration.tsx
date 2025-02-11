@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Registration() {
   const handleRegistrationClick = () => {
-    window.open("https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/viewform", "_blank");
+    window.open("https://bit.ly/DaftarTwbExpo2025", "_blank");
   };
 
   return (

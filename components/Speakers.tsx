@@ -14,8 +14,6 @@ const speakerData = {
   contact: {
     instagram: "@septianawp",
     tiktok: "@fortia_",
-    phone: "+6281384541908",
-    email: "officialcontactsepti@gmail.com",
   },
   experience: [
     {
@@ -115,12 +113,13 @@ export default function Speakers() {
                     </a>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Phone className="h-4 w-4" />
-                    <span>{speakerData.contact.phone}</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Mail className="h-4 w-4" />
-                    <span className="text-sm">{speakerData.contact.email}</span>
+                    <a href={`https://www.tiktok.com/@${speakerData.contact.tiktok}`} className="transition duration-300">
+                      <span className="sr-only">TikTok</span>
+                      <Image src="/tiktok.svg" alt="TikTok" width={24} height={24} />
+                    </a>
+                    <a href={`https://www.tiktok.com/@${speakerData.contact.tiktok}`} className="transition duration-300">
+                      <span>{speakerData.contact.tiktok}</span>
+                    </a>
                   </div>
                 </div>
               </div>
